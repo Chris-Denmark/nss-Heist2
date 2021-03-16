@@ -2,7 +2,7 @@ using System;
 
 namespace Heist2
 {
-  public interface Muscle : IRobber
+  public class Muscle : IRobber
   {
     public string Name { get; set; }
     public int SkillLevel { get; set; }
